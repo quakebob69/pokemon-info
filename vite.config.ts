@@ -1,7 +1,7 @@
-import { defineConfig } from "vitest/config";
+import { defineConfig } from "vite";
 
 export default defineConfig({
-build: {
-    target: 'esnext'
+  build: {
+    target: 'es2020'
   },
 });
