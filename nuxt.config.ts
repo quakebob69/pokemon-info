@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   vite: {
     build: {
-      target: 'es2015',
+      target: 'es2022',
     },
   },
   hooks: {
@@ -17,7 +17,7 @@ export default defineNuxtConfig({
   nitro: {
     esbuild: {
       options: {
-        target: 'es2015'
+        target: 'es2022'
       },
     },
   },
